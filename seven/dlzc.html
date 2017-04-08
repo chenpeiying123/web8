@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>登录注册界面</title>
+<body>
+<form>
+	<table border="1" width="500" height="20" cellspacing="0" cellpadding="5">
+		<tr>
+			<td width="90">用户名：</td><td><input type="text"/></td>
+		</tr>
+		<tr>
+			<td width="90">密码：</td><td><input type="password"/></td>
+		</tr>
+		<tr>
+			<td width="90">确认密码：</td><td><input type="password"/></td>
+		</tr>
+		<tr>
+			<td width="90">性别：</td><td><input type="radio" name="sex" value="男"/>男<input type="radio" name="sex" value="女"/>女</td>
+		</tr>
+		<tr>
+			<td width="90">生日：</td>
+			<td>
+				<select name="年">
+					<option value="frist">公历</option>
+					<option value="two">农历</option>
+				</select>
+				<select name="年份">
+					<option value="frist">年</option>
+					<option value="two">2016</option>
+					<option value="three">2015</option>
+					<option value="four">2014</option>
+					<option value="five">2013</option>
+				</select>
+				<select name="月">
+					<option value="frist">月</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+				</select>
+				<select name="日">
+				<option value="frist">日</option>
+				<option value="1">31</option>
+				<option value="1">30</option>
+				<option value="1">29</option>
+				<option value="1">28</option>
+				<option value="1">27</option>
+				<option value="1">26</option>
+				<option value="1">25</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td width="90">所在地：</td>
+			<td>
+				<select name="国家">
+					<option value="frist">中国</option>
+					<option value="two">外国</option>
+				</select>	
+				<select name="省份">
+					<option value="frist">河南</option>
+					<option value="two">河北</option>
+					<option value="three">山东</option>
+					<option value="four">山西</option>
+				</select>
+				<select name="地区">
+					<option value="frist">郑州</option>
+					<option value="two">石家庄</option>
+					<option value="three">青岛</option>
+					<option value="four">成都</option>
+					<option value="five">济南</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>验证码</td><td><input type="text"><img src="F:\web。HTML\实验5 用户登录、注册页面\实验5\images\yanzhengma.jpg" height="20"></td>
+		</tr>
+		<tr>
+			<td>证件类型</td>
+			<td>
+				<select name="证件">
+					<option value="1">身份证</option>
+					<option value="2">户口本</option>
+					<option value="3">驾驶证</option>
+					<option value="4">护照</option>
+			</td>
+		</tr>
+		<tr>
+			<td>证件号:</td><td><input type="text"></td>
+		</tr>
+		<tr>
+			<td>爱好</td>
+			<td>
+				<input type="checkbox" name="aihao"/>读书
+				<input type="checkbox" name="aihao"/>跳舞
+				<input type="checkbox" name="aihao"/>下棋
+				<input type="checkbox" name="aihao"/>画画
+				<input type="checkbox" name="aihao"/>其他
+			</td>
+		</tr>
+		<tr>
+			<td>说明：</td>
+			<td><textarea rows="5" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td>上传头像</td>
+			<td><input type="file" name="wenjian">未选择任何文件</td>
+		</tr>
+</form>
+		<from action="from.asp" method="get">
+		<tr>
+			<td colspan="2" align="center"><input type="submit" value="提交"/> <input type="reset" value="重置"/> <input type="submit" value="按钮"/></td>
+		</tr>
+		</form>
+	</table>
+</body>
+</head>
+</html>
