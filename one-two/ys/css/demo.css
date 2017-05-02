@@ -1,0 +1,18 @@
+body{
+	font-size:12px;
+	font-family:'Arial';
+	color:rgb(8,8,8);
+	line-height:2em;
+}
+a{
+	color:#727272;
+	text-decoration:none;
+}
+#a{
+	color:#b9f605;
+	font-size:14px;
+	font-weight:bolder;
+}
+#b{
+	color:#fdb306;
+}
