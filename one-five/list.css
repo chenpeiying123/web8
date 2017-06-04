@@ -1,0 +1,88 @@
+ul,ol{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+a{
+    font-size: 14px;
+    color: #222;
+    text-decoration: none;
+}
+a:hover{
+    color: #900;
+    text-decoration:underline;
+}
+.mod{
+    width: 240px;
+}
+.mod .hd {
+    height: auto;
+    padding: 0 10px;
+    /*border-bottom: 1px solid #ececec;
+    border-top: 2px solid #c7c7c7;*/
+    overflow: hidden;/*溢出后隐藏内容*/
+}
+.mod .hd h3 {
+    font: 400 20px "Microsoft YaHei",tahoma;
+    color: #069;
+    line-height: 26px;
+    text-align: left;
+    float: left;
+    margin:10px 0;
+}
+.mod .hd h3 .dec {
+    display: block;
+    font: 400 9px arial;
+    color: #999;
+    line-height: 12px;
+}
+.olist li {
+    height: 26px;
+    line-height: 26px;
+    background: url("images/sp_icon.png") no-repeat right 14px;
+    border-bottom: 1px dotted #ccc;
+    overflow: hidden;/*溢出后隐藏内容*/
+    padding: 4px 0;
+    padding-right: 12px;
+    margin-left: 10px;  
+}
+.olist .list {
+    height: auto;
+    width: auto;
+    display: inline;
+    line-height:12px;
+    margin-right: 8px;
+    font-size: 16px;
+    color: #f63;
+    padding: 1px 2px 1px 1px;
+    font-style: italic;
+    font-family: arial;
+    vertical-align: baseline;
+}
+.olist .list_item {
+    background: #f63;
+    color: #fff;
+}
+.schedule {
+    margin-top: 20px;
+    border-top: 1px solid #eeeff1;
+    border-left: 1px solid #eeeff1;
+    width: 238px;
+}
+.schedule ul li {
+    float: left;
+    width: 80px;
+    height: 40px;
+    padding-left: 26px;
+    padding-right: 12px;
+    border-right: 1px solid #eeeff1;
+    border-bottom: 1px solid #eeeff1;
+    background: url("images/sp_icon_menu.png") no-repeat 10px 12px;
+}
+.schedule ul li a {
+    display: block;
+    line-height: 40px;
+    padding-right: 5px;
+    font-size: 14px;
+    background: url("images/sp_icon.png") no-repeat right 16px;
+}

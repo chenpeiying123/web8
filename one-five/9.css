@@ -1,0 +1,6 @@
+.main{width:900px;height:310px;margin:100px auto 0px;}
+.main .imgage{float:left;padding:1px;}
+.imgage .desc{border:1px solid #ccc;padding:2px;text-align:center;font-size:12px;}
+div.imgage img{display:inline;margin:3px;border:1px solid #bebebe;width:170px;height:142px;opacity:0.5;}
+div.imgage a:hover img{border:1px solid #333333;}
+a:hover img{opacity:1;}

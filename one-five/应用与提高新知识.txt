@@ -1,0 +1,2 @@
+1：overflow:hidden 隐藏溢出
+2：border-bottom  底部划线
